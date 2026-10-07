@@ -140,18 +140,18 @@
 
   <header class="hero">
     <div>
-      <h1>Armand<br>[Nom]</h1>
-      <p class="lede">I work on quantum computation through diagrams: categorical quantum mechanics, the ZX-calculus, and the complexity of linear-optical sampling.</p>
+      <h1>Armand<br>Le Douarec</h1>
+      <p class="lede">I work on quantum computation.</p>
       <nav aria-label="Links">
-        <a href="mailto:[email]">Email</a>
+        <a href="mailto:armandledouarec@gmail.com">Email</a>
+        <a href="https://www.linkedin.com/in/armand-ld">LinkedIn</a>
         <a href="https://github.com/armandld">GitHub</a>
-        <a href="https://arxiv.org/a/[identifiant]">arXiv</a>
         <a href="cv.pdf">CV</a>
       </nav>
     </div>
 
     <svg class="diagram" viewBox="0 0 360 300" role="img" aria-labelledby="dtitle">
-      <title id="dtitle">A looped linear-optical circuit drawn as a string diagram: one mode passes through a phase and a unitary, the other mode feeds back into itself.</title>
+      <title id="dtitle">A quantum circuit drawn as a string diagram.</title>
       <!-- top mode: in → phase → U → out -->
       <path class="wire" pathLength="1" d="M10 110 H150"/>
       <path class="wire out" pathLength="1" d="M210 110 H350"/>
@@ -176,8 +176,7 @@
   <section id="about">
     <h2>About</h2>
     <div class="body">
-      <p>I'm an MSc student in Quantum Technologies at the University of Oxford, after a physics bachelor at EPFL and an exchange year at Imperial College London. I'm interested in the meeting point of category theory and quantum hardware: how compositional languages like the ZX-calculus can describe, compile and certify computations on photonic devices.</p>
-      <p>I'm applying for PhD positions in theoretical quantum computing, starting 2027.</p>
+      <p>I'm an MSc student in Quantum Technologies at the University of Oxford, after a physics bachelor at EPFL and an exchange year at Imperial College London. I'm interested in the meeting point of category theory, logic, quantum computing and AI; more specifically on compilation of diagrammatic AI languages onto quantum architectures.</p>
     </div>
   </section>
 
@@ -186,22 +185,14 @@
     <div class="body">
       <article class="project z-accent">
         <h3>Stationary boson sampling</h3>
-        <p class="meta">Imperial College London, with Giovanni de Felice. Preprint in preparation.</p>
-        <p>Looped linear-optical circuits settle into a stationary state. I proved that sampling from this state is polynomially equivalent to standard boson sampling in both directions, and gave a truncation bound that certifies how deep the loop must be unrolled. The truncation error turns out to be exactly one minus the trace of the truncated state, so the algorithm certifies itself at runtime.</p>
-        <p class="links"><a href="https://github.com/CQCL/optyx">Optyx library</a></p>
-      </article>
-
-      <article class="project x-accent">
-        <h3>From grammar to linear optics</h3>
-        <p class="meta">Relational Intelligence, with Alexis Toumi</p>
-        <p>A compiler that sends grammatical structure to ZX-diagrams and on to linear-optical circuits, built on DisCoPy. The interpretation functor is designed together with the constraints of the optical back end, rather than one step after the other.</p>
+        <p class="meta">Relational Intelligence. Publication in preparation.</p>
       </article>
 
       <article class="project">
-        <h3>Q-HAS</h3>
-        <p class="meta">Bachelor thesis, with Brian Appelbe. Preprint in preparation.</p>
-        <p>[Une ou deux phrases sur Q-HAS : la question, la méthode, le résultat principal.]</p>
-        <p class="links"><a href="https://github.com/armandld/BA_Proj">Code</a></p>
+        <h3>Quantum-Hierarchical Adaptive Steering</h3>
+        <p class="meta">Bachelor thesis, with Dr. Brian Appelbe.</p>
+        <p>This report investigates whether a local quantum circuit can improve the adaptive mesh refinement decision in two-dimensional magnetohydrodynamics.</p>
+        <p class="links"><a href="qhas_report.pdf">Report</a></p>
       </article>
     </div>
   </section>
@@ -212,22 +203,22 @@
       <ol class="timeline" reversed>
         <li>
           <div class="when">2026–2027</div>
-          <div class="what"><strong>MSc Quantum Technologies</strong>, University of Oxford<span>Electives in quantum processes, categories and proofs, and deep learning theory</span></div>
+          <div class="what"><strong>MSc Quantum Technologies</strong>, University of Oxford</div>
         </li>
         <li>
           <div class="when">2025–2026</div>
-          <div class="what"><strong>Exchange year</strong>, Imperial College London<span>First Class, Dean's List</span></div>
+          <div class="what"><strong>Exchange year</strong>, Imperial College London</div>
         </li>
         <li>
           <div class="when">[20XX]–2026</div>
-          <div class="what"><strong>BSc Physics</strong>, EPFL<span>Top 5%, Swiss Study Foundation Fellow</span></div>
+          <div class="what"><strong>BSc Physics</strong>, EPFL<span>Swiss Study Foundation Fellow</span></div>
         </li>
       </ol>
     </div>
   </section>
 
   <footer>
-    Armand [Nom], Oxford. Last updated October 2026.
+    Armand Le Douarec, Oxford. Last updated October 2026.
   </footer>
 
 </div>
